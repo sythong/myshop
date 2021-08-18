@@ -1,0 +1,99 @@
+[debug] [2021-08-18T04:12:09.170Z] ----------------------------------------------------------------------
+[debug] [2021-08-18T04:12:09.172Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Thonghs\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-18T04:12:09.172Z] CLI Version:   9.16.5
+[debug] [2021-08-18T04:12:09.172Z] Platform:      win32
+[debug] [2021-08-18T04:12:09.172Z] Node Version:  v12.19.0
+[debug] [2021-08-18T04:12:09.173Z] Time:          Wed Aug 18 2021 11:12:09 GMT+0700 (Indochina Time)
+[debug] [2021-08-18T04:12:09.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-18T04:12:09.182Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-18T04:12:09.182Z] > authorizing via signed-in user (sythongmta@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\02_HOCTAP\programming\angular\learnCode\myshop
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-08-18T04:13:12.401Z] > refreshing access token with scopes: []
+[debug] [2021-08-18T04:13:12.401Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-18T04:13:12.691Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 18 Aug 2021 04:13:13 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-18T04:13:12.701Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-08-18T04:13:31.925Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2021-08-18T04:13:33.011Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\Thonghs\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-08-18T04:13:41.745Z] ----------------------------------------------------------------------
+[debug] [2021-08-18T04:13:41.747Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Thonghs\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-18T04:13:41.748Z] CLI Version:   9.16.5
+[debug] [2021-08-18T04:13:41.748Z] Platform:      win32
+[debug] [2021-08-18T04:13:41.748Z] Node Version:  v12.19.0
+[debug] [2021-08-18T04:13:41.749Z] Time:          Wed Aug 18 2021 11:13:41 GMT+0700 (Indochina Time)
+[debug] [2021-08-18T04:13:41.749Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-18T04:13:41.758Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-18T04:13:41.758Z] > authorizing via signed-in user (sythongmta@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\02_HOCTAP\programming\angular\learnCode\myshop
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-08-18T04:13:49.996Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2021-08-18T04:13:51.202Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2021-08-18T04:13:51.203Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2021-08-18T04:14:31.741Z] ----------------------------------------------------------------------
+[debug] [2021-08-18T04:14:31.742Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Thonghs\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-18T04:14:31.743Z] CLI Version:   9.16.5
+[debug] [2021-08-18T04:14:31.743Z] Platform:      win32
+[debug] [2021-08-18T04:14:31.743Z] Node Version:  v12.19.0
+[debug] [2021-08-18T04:14:31.744Z] Time:          Wed Aug 18 2021 11:14:31 GMT+0700 (Indochina Time)
+[debug] [2021-08-18T04:14:31.744Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-18T04:14:31.750Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-18T04:14:31.750Z] > authorizing via signed-in user (sythongmta@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\02_HOCTAP\programming\angular\learnCode\myshop
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
